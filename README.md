@@ -1,5 +1,6 @@
 # iot-smartmethods- 
-# ![download](https://user-images.githubusercontent.com/74243095/130327832-81cd9ce4-d740-4444-b47e-5f308f9fc07c.png)
+# ![IoT-devices](https://user-images.githubusercontent.com/74243095/130327934-0b42a95a-781d-46ce-b98c-0f2ed0d7a921.jpg)
+
 
 ## First Task 
 ### 1.1  Design and simulate control interface of robotic arm using ([html]()+[css ]()+[js ]()) programming languages 
