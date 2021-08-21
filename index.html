@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset= utf-8> 
+    <title>Robot Control</title>
+    <link rel="stylesheet" href="css/master.css">
+  
+</head>
+<body>
+    <header>
+        <h2>Robot Arm Control</h2>
+    </header>
+    <form  method="post">
+    <div class="A1">
+        <h4>Axis1:<span id="Axis1"></span></h4 id="A1">
+    </div>
+
+    <div class ="main">
+        
+        <input type="range" min="0" max= "180" value="0" id="S1" name="M1">
+        <p>Value:<span id="Value1" ></span></p>
+
+        <input type="range" min="0" max= "180" value="0" id="S2" name="M2">
+        <p>Value:<span id="Value2" ></span></p>
+
+        <input type="range" min="0" max= "180" value="0" id="S3" name="M3">
+        <p>Value:<span id="Value3"  ></span></p>
+
+        <input type="range" min="0" max= "180" value="0" id="S4" name="M4">
+        <p>Value:<span id="Value4" ></span></p>
+
+        <input type="range" min="0" max= "180" value="0" id="S5" name="M5">
+        <p>Value:<span id="Value5" ></span></p>
+
+        <input type="range" min="0" max= "180" value="0" id="S6" name="M6">
+        <p>Value:<span id="Value6" ></span></p>
+
+    </div>
+
+    <div class="A2">
+        <h4>Axis2:<span id="Axis2"></span></h4 id="A2">
+    </div>
+
+   <div class="A3">
+        <h4>Axis3:<span id="Axis3"></span></h4 id="A3">
+    </div>
+
+    <div class="A4">
+        <h4>Axis4:<span id="Axis4"></span></h4 id="A4">
+    </div>
+
+    <div class="A5">
+        <h4>Axis5:<span id="Axis5"></span></h4 id="A5">
+    </div>
+
+    <div class="A6">
+        <h4>Axis6:<span id="Axis6"></span></h4 id="A6">
+    </div>
+
+    
+	    <input  class="btn" type="submit" value = "SAVE" name =" save" id="btn">
+		<input  class="btn2"type="submit" value = "RUN" name="run" id="btn2">
+		
+
+ 
+    
+</form>
+    
+</body>
+<script  src="js/main.js">
+</script>
+</html>
